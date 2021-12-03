@@ -6,6 +6,7 @@
 
 <!--RequestLogin에서 넘어온 아이디와 패스워드를 읽어드림  -->
  <%
+ request.setCharacterEncoding("EUC-KR");
  //사용자의 정보가 저장되어있는 객체 request의 getParameter() 사용자의 정보를 추출
  String id =request.getParameter("id");
  String pass = request.getParameter("pass");

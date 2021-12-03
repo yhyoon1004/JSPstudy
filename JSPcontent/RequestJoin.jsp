@@ -65,7 +65,7 @@
 				<tr height="50">
 					<td width="150" align="center">하고싶은말</td>
 					<td width="350" align="center">
-					<textarea rows="5" cols="40" names="info"></textarea>
+					<textarea rows="5" cols="40" name="info"></textarea>
 					</td>
 				</tr>
 				
