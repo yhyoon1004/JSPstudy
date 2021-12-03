@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<!-- 아래 h2는 실제로 버퍼에 들어가지만 sendRedirect메서드가 버퍼를 비우고
+ResponseMain.jsp를 userid와 함께 전달 실행  -->
 	<h2>로그인 처리 페이지</h2>
 <%
 	request.setCharacterEncoding("EUC-KR");
